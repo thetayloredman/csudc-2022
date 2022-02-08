@@ -1,0 +1,13 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px;
+}
+.no-top-margin { margin-top: 0px; }

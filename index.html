@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!--
+        COLOR SENSITIVITY UNDER DIFFERING CIRCUMSTANCES
+                   2021 SCIENCE FAIR PROJECT
+                         DEVINE, LOGAN
+
+        Participating developers:
+            - Kendra Mottern
+            - Lily Madison
+                                                           -->
+
+<html>
+    <head>
+        <title>Color Sensitivity Under Differing Circumstances</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body id="page-root">
+        <noscript>
+            <!-- JS is required for site functions -->
+            <h1>JavaScript needs to be enabled for this website to function.</h1>
+            <p>Please enable JavaScript before attempting to use this website.</p>
+        </noscript>
+        <div id="core" style="display: none;">
+            <!-- the scripts will work with code here, do not change class
+                 names here without checking the code first, as they are likely
+                 the most important part of the code here                       -->
+            <div id="welcome">
+                <h1 class="title no-bottom-margin">Welcome to Color Sensitivity Under Differing Circumstances</h1>
+                <h3 class="title no-top-margin">(A 2021-2022 Science Fair Project by Logan Devine, Kendra Mottern, and Lily Madison)</h3>
+            </div>
+            <p>
+                CSUDC is a color sensitivity test as a 2021-2022 science fair project started in 2020 by Logan Devine.
+            </p>
+            <p>
+            Here's how this will work: You will press the button labeled <button disabled>Start</button> and then you will be displayed a panel with a button labeled <button disabled>Begin</button>. Press that. Then the page will change in color. Press <button disabled>End</button> when you are SURE the color you are seeing is what is being tested. We test the colors Red, Green, and Blue. Then we will move to the next lab. At the end, the page will convert back to white and your results will be revealed. Then, you'll give me those results and you'll be done!
+            </p>
+
+            <div class="center">
+                <button onclick="startColorTest()">START!</button>
+            </div>
+        </div>
+    </body>
+
+    <script src="main.js"></script>
+</html>
