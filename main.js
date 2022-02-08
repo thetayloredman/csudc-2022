@@ -1,3 +1,11 @@
+/*
+   CSUDC 2022 - Logan Devine, Lily Madison, and Kendra Mottern
+    Copyright (C) 2021, 2022  Logan Devine, Lily Madison, Kendra Mottern
+    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+*/
+
 let version = 'v0.163.0'
 
 $('#core').css('display', 'block');
